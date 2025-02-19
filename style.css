@@ -1,0 +1,418 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: poppins;
+  font-size: calc(10px+1vmin);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+}
+.container_one {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.icon_list i {
+  color: red;
+  font-size: 1.3rem;
+}
+.icon_list {
+  display: flex;
+  align-items: center;
+}
+div .mail {
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+  background-color: rgb(14, 206, 46);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.super {
+  font-weight: 200;
+  font-size: small;
+  color: rgb(69, 57, 57);
+}
+.searching_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.searching_container div.microphone {
+  height: 1.9rem;
+  width: 1.9rem;
+  border-radius: 50%;
+  border: 1px solid rgba(236, 230, 230, 0.84);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(196, 196, 196);
+}
+.search_bar {
+  border: 1px solid rgba(181, 166, 166, 0.971);
+  border-radius: 0.8rem;
+  width: 26rem;
+}
+.search_bar input {
+  height: 1.9rem;
+  width: 23.3rem;
+  border-radius: 10px 0px 0px 10px;
+  border: 0.03rem solid rgba(225, 218, 218, 0.456);
+}
+.search_bar i {
+  align-items: center;
+  color: rgb(132, 134, 134);
+}
+.left_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+}
+.container {
+  display: flex;
+  overflow-x: hidden;
+ 
+}
+.left_container div.icons {
+  border: 0.1rem solid rgb(212, 203, 203);
+  height: 1.8rem;
+  width: 4.5rem;
+  border-radius: 1rem;
+  display: flex;
+  font-size: 0.8rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  background-color: rgb(196, 196, 196);
+}
+.left_main_container {
+  width: 17%;
+  overflow-y: scroll;
+}
+.first_left {
+  border-bottom: 1px solid rgb(190, 186, 186);
+  margin: 1.6rem;
+}
+.left_main_container .home_container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding-bottom: 10px;
+  font-size: 0.7rem;
+}
+.left_main_container .shorts {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+  padding-bottom: 10px;
+  font-size: 0.7rem;
+}
+.left_main_container .shorts img {
+  height: 1rem;
+  width: 1rem;
+}
+.left_main_container .subscription {
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 2.1rem;
+  padding-bottom: 10px;
+}
+.subscription span {
+  font-size: 0.7rem;
+}
+.second_left {
+  border-bottom: 1px solid rgb(190, 186, 186);
+  margin: 1.6rem;
+}
+.second_left .you_icon {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.4rem;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.you_icon h3 {
+  font-size: 0.8rem;
+  color: black;
+}
+.you_icon i {
+  font-size: small;
+  color: rgb(100, 96, 96);
+}
+.second_left .history {
+  padding-bottom: 10px;
+  font-size: 0.7rem;
+  display: flex;
+  gap: 2.2rem;
+}
+.second_left .playlist {
+  padding-bottom: 10px;
+  font-size: 0.7rem;
+  display: flex;
+  gap: 1.8rem;
+}
+.second_left .playlist img {
+  height: 1.1rem;
+  width: 1.1rem;
+  padding-right: 0.25rem;
+}
+.second_left .video {
+  padding-bottom: 10px;
+  font-size: 0.7rem;
+  display: flex;
+  gap: 2.1rem;
+}
+
+.second_left .watch {
+  padding-bottom: 10px;
+  font-size: 0.7rem;
+  display: flex;
+  gap: 2.1rem;
+}
+.second_left .liked {
+  padding-bottom: 10px;
+  font-size: 0.7rem;
+  display: flex;
+  gap: 2.2rem;
+}
+
+.second_left .download {
+  padding-bottom: 10px;
+  font-size: 0.7rem;
+  display: flex;
+  gap: 2.2rem;
+}
+
+.right_main_container {
+  width: 85%;
+}
+.wrapper {
+  border-bottom: 1px solid rgb(190, 186, 186);
+  margin: 1.6rem;
+}
+.wrapper .explore_container {
+  padding-bottom: 10px;
+  font-size: 0.7rem;
+  display: flex;
+  gap: 1.2rem;
+  margin: 0.2rem;
+}
+.wrapper .trending {
+  padding-bottom: 10px;
+  font-size: 0.7rem;
+  display: flex;
+  gap: 2.2rem;
+}
+
+.wrapper .music {
+  padding-bottom: 10px;
+  font-size: 0.7rem;
+  display: flex;
+  gap: 2.2rem;
+}
+
+.wrapper .game {
+  padding-bottom: 10px;
+  font-size: 0.7rem;
+  display: flex;
+  gap: 2.1rem;
+}
+
+.wrapper .news {
+  padding-bottom: 10px;
+  font-size: 0.7rem;
+  display: flex;
+  gap: 2.2rem;
+}
+.wrapper .sports {
+  padding-bottom: 10px;
+  font-size: 0.7rem;
+  display: flex;
+  gap: 2.2rem;
+  margin: 0.2rem;
+  
+}
+.wrapper_three {
+  border-bottom: 1px solid rgb(229, 228, 228);
+  padding-top: 10px;
+  margin: 1.6rem;
+}
+.wrapper_three .YouTube {
+  padding-bottom: 10px;
+  display: flex;
+  gap: 1.2rem;
+}
+.wrapper_three .YouTube img {
+  height: 1rem;
+  width: 1rem;
+}
+.wrapper_three .YouTube span {
+  font-size: 0.7rem;
+  /* margin: 1rem; */
+}
+
+.wrapper_two {
+  padding-bottom: 10px;
+  margin: 1.6rem;
+  border-bottom: 1px solid rgb(190, 186, 186);
+}
+.wrapper_two .setting {
+  padding-bottom: 10px;
+  font-size: 0.7rem;
+  display: flex;
+  gap: 2rem;
+  padding-top: 0.6rem;
+}
+.wrapper_two .history {
+  padding-bottom: 10px;
+  font-size: 0.7rem;
+  display: flex;
+  gap: 2rem;
+}
+.wrapper_two .help {
+  padding-bottom: 10px;
+  font-size: 0.7rem;
+  display: flex;
+  gap: 2rem;
+}
+.wrapper_two .feedback {
+  padding-bottom: 10px;
+  font-size: 0.7rem;
+  display: flex;
+  gap: 1.6rem;
+}
+.left_main_container p {
+  font-size: 0.65rem;
+  margin: 1.6rem;
+  color: rgb(56, 54, 54);
+}
+.right_main_container {
+  /* display: flex; */
+  width: 83%;
+  /* background-color: blanchedalmond; */
+}
+.top_element {
+  width: 100%;
+  margin-left: 0.4rem;
+}
+.top_element span {
+  border: 1px solid black;
+  border-radius: 6px 6px;
+  margin: 3px;
+  padding: 2px;
+  background-color: rgb(196, 196, 196);
+  font-size: 0.8rem;
+}
+.top_element span:hover {
+  background-color: black;
+  color: white;
+}
+
+.bottom_element {
+  padding: 1.3rem;
+  
+}
+.card1 {
+  display: flex;
+}
+.card1 .pic img {
+  height: 13rem;
+  width: 19rem;
+  border-radius: 10px;
+ 
+  margin-left: 1rem;
+}
+.description {
+  display: flex;
+  align-items: center;
+}
+.card1 .description img {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+}
+.card1 .description p {
+  font-size: 0.7rem;
+  margin-left: 0.4rem;
+}
+.card1 .views {
+  margin-left: 1.6rem;
+}
+.card1 .views p {
+  font-size: 10px;
+  margin-left: 3em;
+}
+.card2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.3rem;
+}
+.card2 .pic img {
+  height: 13rem;
+  width: 19rem;
+  border-radius: 10px;
+  margin-left: 1rem;
+}
+.description {
+  display: flex;
+  align-items: center;
+}
+.card2 .description img {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+}
+.card2 .description p {
+  font-size: 0.7rem;
+  margin-left: 0.4rem;
+}
+.card2 .views {
+  margin-left: 1.6rem;
+}
+.card2 .views p {
+  font-size: 10px;
+  margin-left: 3em;
+}
+.card3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card3 .pic img {
+  height: 13rem;
+  width: 19rem;
+  border-radius: 10px;
+  margin-left: 1rem;
+}
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card3 .description img {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+}
+.card3 .description p {
+  font-size: 0.7rem;
+  margin-left: 0.4rem;
+}
+.card3 .views {
+  margin-left: 1.6rem;
+}
+.card3 .views p {
+  font-size: 10px;
+  margin-left: 3em;
+}
